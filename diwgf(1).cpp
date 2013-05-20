@@ -1,3 +1,6 @@
+// qergreg.cpp: определяет точку входа для консольного приложения.
+//
+#include "stdafx.h"
 #include <iostream>
 #include <string>
 #include <stdlib.h>
@@ -5,7 +8,7 @@
 using namespace std;
 int main()
 {
-  TRAIN my;
+	TRAIN my;
 	string neStation;
 	int nberTrain;
 	int tiDeparture;
