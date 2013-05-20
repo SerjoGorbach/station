@@ -1,0 +1,19 @@
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+#include "Gorbachidze.h"
+using namespace std;
+ void TRAIN::setTRAIN(string neStation,int nberTrain, int tiDeparture){
+   nameStation=neStation;
+	 numberTrain=nberTrain;
+	 timeDeparture=tiDeparture;
+ }
+	int TRAIN::getName()
+ {
+
+	 return numberTrain;
+ }
+	void TRAIN::displayName ()
+{
+	cout<<"name Station : "<<nameStation<<": number Passengers : "<<getName()<<": Time :"<<timeDeparture<<endl;
+}
